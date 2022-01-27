@@ -1,4 +1,5 @@
 Feature: get api feature
+
   Scenario: get api feature
     #* def query = {status:'active'}
     Given url BaseUrl+'//public/v1/users'

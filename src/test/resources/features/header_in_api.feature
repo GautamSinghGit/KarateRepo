@@ -10,6 +10,7 @@ Feature: API call with headers
 
 
   Scenario: API call with headers part_2
+
     * def req_header = { Accept-Encoding: 'gzip,deflate' , Connection: 'Keep-Alive'}
     Given headers res_header
     When url BaseUrl+"//public/v1/users"
